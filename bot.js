@@ -11,4 +11,4 @@ client.user.setGame(`Hmmm`,"http://twitch.tv/Dream")
 client.user.setStatus("dnd")
 });
 
-client.login("NDYzMDkyOTE5NDY5OTk4MDkx.DhrYZA.eEdlu4gRuM5IOwSAUdKl03lv2BA");// لا تغير فيها شيء
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
